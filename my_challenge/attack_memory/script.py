@@ -19,7 +19,7 @@ with open('path file', 'rb') as f:
                 pwd[offset - 0x1c] |= val
         else:
             f.read(5)
-            pwd[offset - 0x1c] &= 0b01111111  
+            pwd[offset - 0x1c] &= ~0x80  
         print(pwd.decode('utf8'),end='\r')
         time.sleep(0.02)
         sys.stdout.flush()
@@ -42,7 +42,7 @@ with open('path file', 'rb') as f:
                 pwd[offset - 0x1c] |= val
         else:
             f.read(1)
-            pwd[offset - 0x1c] &= 0b01111111 
+            pwd[offset - 0x1c] &= ~0x80
         print(pwd.decode('utf8'),end='\r')
         time.sleep(0.02)
         sys.stdout.flush()
