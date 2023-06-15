@@ -47,4 +47,3 @@ with open('path file', 'rb') as f:
         time.sleep(0.02)
         sys.stdout.flush()
 print()
-
