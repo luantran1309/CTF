@@ -40,4 +40,4 @@ p.close()
 ```
 - Sau đó ta sẽ được `secret = !&+05:?DINSX]bglqv`
 - Cuối cùng là run file và nhập secret ta được flag = `PCTF{(-27<AFKPUZ_dinsx}`
-#Chúc mọi người học tập tốt :)
+# Chúc mọi người học tập tốt :)
