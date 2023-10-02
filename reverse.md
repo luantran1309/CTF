@@ -23,6 +23,6 @@ bin= idc.get_bytes(addr,int(len))
 gef➤ python print(''.join([chr(int(gdb.parse_and_eval(f"**($r8 + ({i} << 4))"))) for i in range(18)]))
 ```
 ----
-#python
+# python
 ### chuyển số nguyên sang byte(byte string)
 integer.to_bytes(length, byteorder, signed=False)
