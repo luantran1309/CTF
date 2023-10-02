@@ -25,4 +25,6 @@ gef➤ python print(''.join([chr(int(gdb.parse_and_eval(f"**($r8 + ({i} << 4))")
 ----
 # python
 ### chuyển số nguyên sang byte(byte string)
+```python
 integer.to_bytes(length, byteorder, signed=False)
+```
