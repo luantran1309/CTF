@@ -17,7 +17,7 @@ bin= idc.get_bytes(addr,int(len))
 
 ### shift E: để push data
 ### Use module gdb in python
-- gdb -x solve.py
+- gdb -x file_name.py
 ----
 # GDB
 ### Lấy giá trị thanh ghi $r8 tính toán
