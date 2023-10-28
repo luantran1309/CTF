@@ -30,6 +30,10 @@ gef➤ python print(''.join([chr(int(gdb.parse_and_eval(f"**($r8 + ({i} << 4))")
 ```python
 integer.to_bytes(length, byteorder, signed=False)
 ```
+### chuyển mảng về int
+```python
+int.from_bytes(v12[i:i+4], byteorder='little')
+```
 ---
 # Linux
 ### `stegseek` giấu tin trong file ảnh  
