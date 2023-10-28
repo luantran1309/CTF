@@ -16,17 +16,25 @@ bin= idc.get_bytes(addr,int(len))
 ### shift 12: để code script ngay trên IDA
 
 ### shift E: để push data
-### Use module gdb in python
-- gdb -x file_name.py
 ----
 # GDB
 ### Lấy giá trị thanh ghi $r8 tính toán
 ``` python
 gef➤ python print(''.join([chr(int(gdb.parse_and_eval(f"**($r8 + ({i} << 4))"))) for i in range(18)]))
 ```
+### Use module gdb in python
+- gdb -x file_name.py
 ----
-# python
+# Python
 ### chuyển số nguyên sang byte(byte string)
 ```python
 integer.to_bytes(length, byteorder, signed=False)
 ```
+---
+# Linux
+### `stegseek` giấu tin trong file ảnh  
+### `dirb` quét các file tồn tại trên Server
+---
+# Windows
+### App `SoundDeep` ẩn tin(ảnh, file, ...) trong file âm nhạc(mp3,..) 
+### App `Audacity` edit, record, ... âm thanh
