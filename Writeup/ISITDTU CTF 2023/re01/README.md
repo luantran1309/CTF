@@ -1,4 +1,4 @@
-#####Với bài này mình sẽ dùng IDA để làm
+##### Với bài này mình sẽ dùng IDA để làm
 - Ban đầu nó sẽ copy sang `input_cpy` 
 
 ![pic1](Image/pic1.png)
