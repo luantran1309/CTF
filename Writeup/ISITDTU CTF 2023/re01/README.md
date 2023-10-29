@@ -14,7 +14,7 @@
 ![pic4](Image/pic4.png)
 - Quan sát 1 lúc thì mình nhận thấy rằng hàm này sẽ tạo ra 5 hệ phương trình 5 ẩn kiểu như:
 ```
-a1*x1 + a2*x2 + a3*x3 + a4*x4  = v18
+a1*x1 + a2*x2 + a3*x3 + a4*x4 + a5*x5 = v18
 ```
 - Từ đây ta hoàn toàn có thể tính được `input`, lúc đầu mình định dùng `module Z3` nhưng sau 1 hồi thì vẫn ra 1 số kí tự `input` sai mình đoán chắc là do `Bitvec` giới hạn 8 bit vẫn là nhiều, mình co dần giới hạn lại và dần ra flag đúng hơn nhưng vẫn sai 1 số từ, nên để đây để mn tham khảo hihi.
 ```python
