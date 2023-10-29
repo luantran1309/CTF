@@ -8,7 +8,7 @@
 - Sau đó tiếp tục **trace** ta dễ dàng đến được đây 
 
 ![pic3](Image/pic3.png)
-- Ở đây `a7` được tham chiếu từ `v12` với những giá trị có sẵn của hàm `main`
+- Ở đây `a7` được tham chiếu từ `v12` với những giá trị có sẵn ở hàm `main`
 - `jump` đến hàm `change_v18` để xem input_user tác động như nào đến `v18`
 
 ![pic4](Image/pic4.png)
@@ -16,7 +16,7 @@
 ```
 a1*x1 + a2*x2 + a3*x3 + a4*x4  = v18
 ```
-- Với **a là v14 đã biết , v18 đã biết** thì ta hoàn toàn có thể tính được `input` lúc đầu mình định dùng `module Z3` nhưng sau 1 hồi thì vẫn ra 1 số kí tự `input` sai mình đoán chắc là do `Bitvec` giới hạn 8 bit vẫn là nhiều mình co dần giới hạn lại và dần ra flag đúng hơn nhưng vẫn sai 1 số từ mình để đây để mn tham khảo hihi.
+- Từ đây ta hoàn toàn có thể tính được `input`, lúc đầu mình định dùng `module Z3` nhưng sau 1 hồi thì vẫn ra 1 số kí tự `input` sai mình đoán chắc là do `Bitvec` giới hạn 8 bit vẫn là nhiều, mình co dần giới hạn lại và dần ra flag đúng hơn nhưng vẫn sai 1 số từ, nên để đây để mn tham khảo hihi.
 ```python
 from z3 import *
 
