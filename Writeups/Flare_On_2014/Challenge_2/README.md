@@ -13,6 +13,7 @@
 ![image](images/strings.png)
 
 - Convert to `python` code
+
 ![image](images/python.png)
 
 - The output gives us two strings that appear to be encoded in base64
