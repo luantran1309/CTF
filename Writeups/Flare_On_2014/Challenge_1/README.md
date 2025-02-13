@@ -2,6 +2,7 @@
 ![image](images/die.png)
 
 - Run the test and the screen will display
+
 ![image](images/screen1.png)
 
 - After press **DECODE**, the screen will display
@@ -14,6 +15,7 @@
 ![image](images/init.png)
 
 - Following `btnDecode_Click`. It seems to be doing some decoding 
+
 ![image](images/decode.png)
 
 - Set breakpoint and I get the value of `dat_secret`, `text`, `text2`, `text3`
